@@ -29,7 +29,8 @@ Body/rw/JSON
 
 `go mod vendor`
 
-## environment file example
+## Environment file example
+
 - add `.env` file in root folder
 ```
 MYSQL_ROOT_PASSWORD = passw
