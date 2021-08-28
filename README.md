@@ -82,4 +82,4 @@ Funciones Go que estan dentro de las rutas
 - By default the DB name is `url-shortener_db_1 `
 - DB Commands in /migrations. `name_table.up.sql`
 - If you want use `[IF [NOT] EXISTS]` sintax
-- Go Middlewares (Go functions for routes) uses (chi)[https://github.com/go-chi/chi]
+- Go Middlewares (Go functions for routes) uses [chi](https://github.com/go-chi/chi)
