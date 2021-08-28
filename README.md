@@ -19,8 +19,6 @@ Body/rw/JSON
 
 `go mod init <repo-name>`
 
-[chi-webserver](https://github.com/go-chi/chi)
-
 `go mod init yourRepo`
 
 `go get -u repo`
@@ -31,8 +29,8 @@ Body/rw/JSON
 
 `go mod vendor`
 
-## .env file example
-- add .env file in root folder
+## environment file example
+- add `.env` file in root folder
 ```
 MYSQL_ROOT_PASSWORD = passw
 MYSQL_DATABASE = urlshortener
