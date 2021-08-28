@@ -72,9 +72,6 @@ Examples
 
 `docker-compose down`
 
-## Middlewares
-Funciones Go que estan dentro de las rutas
-
 ## Notes
 - By default the DB name is `url-shortener_db_1 `
 - DB Commands in /migrations. `name_table.up.sql`
