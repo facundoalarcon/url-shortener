@@ -30,6 +30,7 @@ Body/rw/JSON
 `go mod tidy -v`
 
 `go mod vendor`
+
 ## .env file example
 - add .env file in root folder
 ```
