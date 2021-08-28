@@ -16,22 +16,19 @@ Body/rw/JSON
 ```
 
 ## Config
+```
+go mod init <repo-name>
+go mod init yourRepo
+go get -u repo
+go mod download
+go mod tidy -v
+go mod vendor
+```
 
-`go mod init <repo-name>`
-
-`go mod init yourRepo`
-
-`go get -u repo`
-
-`go mod download`
-
-`go mod tidy -v`
-
-`go mod vendor`
-
-## Environment file example
+## Environment variables file example
 
 - add `.env` file in root folder
+
 ```
 MYSQL_ROOT_PASSWORD = passw
 MYSQL_DATABASE = urlshortener
