@@ -6,14 +6,14 @@ With [Postman](https://www.postman.com/)
 - `POST http://localhost:8080/mongoshorturl`
 
 Body/rw/JSON
-`
+```
 {
     "original_url" : "http://google.com",
     "short" : "g1",
     "short_url" : "http://localhost:8080/g1",
     "url_id" : 1
 }
-`
+```
 
 ## Config
 
@@ -32,7 +32,7 @@ Body/rw/JSON
 `go mod vendor`
 ## .env file example
 - add .env file in root folder
-`
+```
 MYSQL_ROOT_PASSWORD = passw
 MYSQL_DATABASE = urlshortener
 MYSQL_USER = urlshortener
@@ -45,7 +45,7 @@ MONGO_INITDB_ROOT_PASSWORD = urlshortener
 MONGO_DATABASE = urlshortenerDB
 MONGO_HOST = url-shortener_mongo_1
 MONGO_PORT = 27017
-`
+```
 
 ## Docker
 
